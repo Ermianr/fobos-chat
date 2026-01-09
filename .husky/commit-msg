@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/h"
+
+bun run scripts/commit-msg-hook.ts "$1" && bunx --no-install commitlint --edit "$1"
