@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: bun
+    schedule:
+      interval: weekly
+      day: monday
+    directory: /
+
+  - package-ecosystem: github-actions
+    schedule:
+      interval: weekly
+      day: monday
+    directory: /

@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "!**/.next",
+      "!**/dist",
+      "!**/.turbo",
+      "!**/.zed",
+      "!**/.vscode",
+      "!**/convex/_generated",
+      "!**/apps/web/src/components/ui/*.tsx"
+    ]
+  },
+  "extends": ["ultracite/biome/core", "ultracite/biome/next"]
+}
